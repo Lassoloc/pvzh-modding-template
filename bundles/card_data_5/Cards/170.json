@@ -1,0 +1,191 @@
+{
+    "entity": {
+        "components": [
+            {
+                "$type": "PvZCards.Engine.Components.Card, EngineLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                "$data": {
+                    "Guid": 170
+                }
+            },
+            {
+                "$type": "PvZCards.Engine.Components.Attack, EngineLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                "$data": {
+                    "AttackValue": {
+                        "BaseValue": 3
+                    }
+                }
+            },
+            {
+                "$type": "PvZCards.Engine.Components.Health, EngineLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                "$data": {
+                    "MaxHealth": {
+                        "BaseValue": 3
+                    },
+                    "CurrentDamage": 0
+                }
+            },
+            {
+                "$type": "PvZCards.Engine.Components.SunCost, EngineLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                "$data": {
+                    "SunCostValue": {
+                        "BaseValue": 5
+                    }
+                }
+            },
+            {
+                "$type": "PvZCards.Engine.Components.Zombies, EngineLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                "$data": {}
+            },
+            {
+                "$type": "PvZCards.Engine.Components.Rarity, EngineLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                "$data": {
+                    "Value": "R2"
+                }
+            },
+            {
+                "$type": "PvZCards.Engine.Components.Subtypes, EngineLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                "$data": {
+                    "subtypes": [
+                        7
+                    ]
+                }
+            },
+            {
+                "$type": "PvZCards.Engine.Components.Tags, EngineLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                "$data": {
+                    "tags": [
+                        "bonus",
+                        "randomzombie",
+                        "randomzombiefighter",
+                        "narrow"
+                    ]
+                }
+            },
+            {
+                "$type": "PvZCards.Engine.Components.EffectEntitiesDescriptor, EngineLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                "$data": {
+                    "entities": [
+                        {
+                            "components": [
+                                {
+                                    "$type": "PvZCards.Engine.Components.EffectEntityGrouping, EngineLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                                    "$data": {
+                                        "AbilityGroupId": 0
+                                    }
+                                },
+                                {
+                                    "$type": "PvZCards.Engine.Components.PlayTrigger, EngineLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                                    "$data": {}
+                                },
+                                {
+                                    "$type": "PvZCards.Engine.Components.TriggerTargetFilter, EngineLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                                    "$data": {
+                                        "Query": {
+                                            "$type": "PvZCards.Engine.Queries.CompositeAllQuery, EngineLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                                            "$data": {
+                                                "queries": [
+                                                    {
+                                                        "$type": "PvZCards.Engine.Queries.SelfQuery, EngineLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                                                        "$data": {}
+                                                    },
+                                                    {
+                                                        "$type": "PvZCards.Engine.Queries.WillTriggerEffectsQuery, EngineLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                                                        "$data": {}
+                                                    },
+                                                    {
+                                                        "$type": "PvZCards.Engine.Queries.IsAliveQuery, EngineLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                                                        "$data": {}
+                                                    }
+                                                ]
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "$type": "PvZCards.Engine.Components.PrimaryTargetFilter, EngineLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                                    "$data": {
+                                        "SelectionType": "All",
+                                        "NumTargets": 0,
+                                        "TargetScopeType": "All",
+                                        "TargetScopeSortValue": "None",
+                                        "TargetScopeSortMethod": "None",
+                                        "AdditionalTargetType": "None",
+                                        "AdditionalTargetQuery": null,
+                                        "OnlyApplyEffectsOnAdditionalTargets": false,
+                                        "Query": {
+                                            "$type": "PvZCards.Engine.Queries.CompositeAllQuery, EngineLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                                            "$data": {
+                                                "queries": [
+                                                    {
+                                                        "$type": "PvZCards.Engine.Queries.SubtypeQuery, EngineLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                                                        "$data": {
+                                                            "Subtype": 7
+                                                        }
+                                                    },
+                                                    {
+                                                        "$type": "PvZCards.Engine.Queries.HasComponentQuery, EngineLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                                                        "$data": {
+                                                            "ComponentType": "PvZCards.Engine.Components.Zombies, EngineLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+                                                        }
+                                                    },
+                                                    {
+                                                        "$type": "PvZCards.Engine.Queries.TargetableInPlayFighterQuery, EngineLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                                                        "$data": {}
+                                                    }
+                                                ]
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "$type": "PvZCards.Engine.Components.ExtraAttackEffectDescriptor, EngineLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                                    "$data": {}
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    "prefabName": "2067f3e7-2cbc-4db9-8475-61f11cf675ba",
+    "baseId": "BaseZombie",
+    "color": "Brainy",
+    "set": "Gold",
+    "rarity": 1,
+    "setAndRarityKey": "Bloom_Rare",
+    "craftingBuy": 250,
+    "craftingSell": 50,
+    "displayHealth": 3,
+    "displayAttack": 3,
+    "displaySunCost": 5,
+    "faction": "Zombies",
+    "ignoreDeckLimit": false,
+    "isPower": false,
+    "isPrimaryPower": false,
+    "isFighter": true,
+    "isEnv": false,
+    "isAquatic": false,
+    "isTeamup": false,
+    "subtypes": [
+        "Science"
+    ],
+    "tags": [
+        "bonus",
+        "randomzombie",
+        "randomzombiefighter",
+        "narrow"
+    ],
+    "subtype_affinities": [
+        "Science"
+    ],
+    "subtype_affinity_weights": [
+        1.4
+    ],
+    "tag_affinities": [],
+    "tag_affinity_weights": [],
+    "card_affinities": [],
+    "card_affinity_weights": [],
+    "usable": true,
+    "special_abilities": []
+}

@@ -1,0 +1,122 @@
+{
+    "entity": {
+        "components": [
+            {
+                "$type": "PvZCards.Engine.Components.Card, EngineLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                "$data": {
+                    "Guid": 45
+                }
+            },
+            {
+                "$type": "PvZCards.Engine.Components.Attack, EngineLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                "$data": {
+                    "AttackValue": {
+                        "BaseValue": 3
+                    }
+                }
+            },
+            {
+                "$type": "PvZCards.Engine.Components.Health, EngineLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                "$data": {
+                    "MaxHealth": {
+                        "BaseValue": 2
+                    },
+                    "CurrentDamage": 0
+                }
+            },
+            {
+                "$type": "PvZCards.Engine.Components.SunCost, EngineLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                "$data": {
+                    "SunCostValue": {
+                        "BaseValue": 3
+                    }
+                }
+            },
+            {
+                "$type": "PvZCards.Engine.Components.Plants, EngineLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                "$data": {}
+            },
+            {
+                "$type": "PvZCards.Engine.Components.Rarity, EngineLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                "$data": {
+                    "Value": "R0"
+                }
+            },
+            {
+                "$type": "PvZCards.Engine.Components.Subtypes, EngineLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                "$data": {
+                    "subtypes": [
+                        22
+                    ]
+                }
+            },
+            {
+                "$type": "PvZCards.Engine.Components.Tags, EngineLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                "$data": {
+                    "tags": [
+                        "anyplantfighter",
+                        "anyaquaticplantfighter",
+                        "notpineclone",
+                        "aquatic",
+                        "weenie",
+                        "cost6orless",
+                        "randomplantcard"
+                    ]
+                }
+            },
+            {
+                "$type": "PvZCards.Engine.Components.Aquatic, EngineLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                "$data": {
+                    "Counters": {
+                        "IsPersistent": true,
+                        "Counters": [
+                            {
+                                "SourceId": -1,
+                                "Duration": 0,
+                                "Value": 0
+                            }
+                        ]
+                    }
+                }
+            }
+        ]
+    },
+    "prefabName": "867a395d-ca39-40a0-a967-6db7fb160bf9",
+    "baseId": "Base",
+    "color": "Smarty",
+    "set": "Silver",
+    "rarity": 4,
+    "setAndRarityKey": "Dawn_Common",
+    "craftingBuy": 25,
+    "displayHealth": 2,
+    "displayAttack": 3,
+    "displaySunCost": 3,
+    "faction": "Plants",
+    "ignoreDeckLimit": false,
+    "isPower": false,
+    "isPrimaryPower": false,
+    "isFighter": true,
+    "isEnv": false,
+    "isAquatic": true,
+    "isTeamup": false,
+    "subtypes": [
+        "Animal"
+    ],
+    "tags": [
+        "anyplantfighter",
+        "anyaquaticplantfighter",
+        "notpineclone",
+        "aquatic",
+        "weenie",
+        "cost6orless",
+        "randomplantcard"
+    ],
+    "subtype_affinities": [],
+    "subtype_affinity_weights": [],
+    "tag_affinities": [],
+    "tag_affinity_weights": [],
+    "card_affinities": [],
+    "card_affinity_weights": [],
+    "usable": true,
+    "special_abilities": []
+}

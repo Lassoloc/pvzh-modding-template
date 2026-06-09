@@ -1,0 +1,123 @@
+{
+    "entity": {
+        "components": [
+            {
+                "$type": "PvZCards.Engine.Components.Card, EngineLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                "$data": {
+                    "Guid": 425
+                }
+            },
+            {
+                "$type": "PvZCards.Engine.Components.Attack, EngineLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                "$data": {
+                    "AttackValue": {
+                        "BaseValue": 5
+                    }
+                }
+            },
+            {
+                "$type": "PvZCards.Engine.Components.Health, EngineLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                "$data": {
+                    "MaxHealth": {
+                        "BaseValue": 4
+                    },
+                    "CurrentDamage": 0
+                }
+            },
+            {
+                "$type": "PvZCards.Engine.Components.SunCost, EngineLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                "$data": {
+                    "SunCostValue": {
+                        "BaseValue": 5
+                    }
+                }
+            },
+            {
+                "$type": "PvZCards.Engine.Components.Plants, EngineLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                "$data": {}
+            },
+            {
+                "$type": "PvZCards.Engine.Components.Rarity, EngineLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                "$data": {
+                    "Value": "R1"
+                }
+            },
+            {
+                "$type": "PvZCards.Engine.Components.Subtypes, EngineLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                "$data": {
+                    "subtypes": [
+                        27,
+                        22
+                    ]
+                }
+            },
+            {
+                "$type": "PvZCards.Engine.Components.Tags, EngineLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                "$data": {
+                    "tags": [
+                        "anyplantfighter",
+                        "cost6orless",
+                        "randomplantcard",
+                        "anyaquaticplantcard"
+                    ]
+                }
+            },
+            {
+                "$type": "PvZCards.Engine.Components.Aquatic, EngineLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                "$data": {
+                    "Counters": {
+                        "IsPersistent": true,
+                        "Counters": [
+                            {
+                                "SourceId": -1,
+                                "Duration": 0,
+                                "Value": 0
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "$type": "PvZCards.Engine.Components.CreateInFront, EngineLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                "$data": {}
+            }
+        ]
+    },
+    "prefabName": "Grizzly Pear",
+    "baseId": "Base",
+    "color": "Guardian",
+    "set": "Set4",
+    "rarity": 0,
+    "setAndRarityKey": "Triassic_Uncommon",
+    "craftingBuy": 50,
+    "craftingSell": 15,
+    "displayHealth": 4,
+    "displayAttack": 5,
+    "displaySunCost": 5,
+    "faction": "Plants",
+    "ignoreDeckLimit": false,
+    "isPower": false,
+    "isPrimaryPower": false,
+    "isFighter": true,
+    "isEnv": false,
+    "isAquatic": true,
+    "isTeamup": false,
+    "subtypes": [
+        "Fruit",
+        "Animal"
+    ],
+    "tags": [
+        "anyplantfighter",
+        "cost6orless",
+        "randomplantcard",
+        "anyaquaticplantcard"
+    ],
+    "subtype_affinities": [],
+    "subtype_affinity_weights": [],
+    "tag_affinities": [],
+    "tag_affinity_weights": [],
+    "card_affinities": [],
+    "card_affinity_weights": [],
+    "usable": true,
+    "special_abilities": []
+}

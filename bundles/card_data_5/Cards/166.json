@@ -1,0 +1,104 @@
+{
+    "entity": {
+        "components": [
+            {
+                "$type": "PvZCards.Engine.Components.Card, EngineLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                "$data": {
+                    "Guid": 166
+                }
+            },
+            {
+                "$type": "PvZCards.Engine.Components.Attack, EngineLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                "$data": {
+                    "AttackValue": {
+                        "BaseValue": 2
+                    }
+                }
+            },
+            {
+                "$type": "PvZCards.Engine.Components.Health, EngineLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                "$data": {
+                    "MaxHealth": {
+                        "BaseValue": 3
+                    },
+                    "CurrentDamage": 0
+                }
+            },
+            {
+                "$type": "PvZCards.Engine.Components.SunCost, EngineLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                "$data": {
+                    "SunCostValue": {
+                        "BaseValue": 2
+                    }
+                }
+            },
+            {
+                "$type": "PvZCards.Engine.Components.Zombies, EngineLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                "$data": {}
+            },
+            {
+                "$type": "PvZCards.Engine.Components.Rarity, EngineLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                "$data": {
+                    "Value": "R0"
+                }
+            },
+            {
+                "$type": "PvZCards.Engine.Components.Subtypes, EngineLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                "$data": {
+                    "subtypes": [
+                        7
+                    ]
+                }
+            },
+            {
+                "$type": "PvZCards.Engine.Components.Tags, EngineLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                "$data": {
+                    "tags": [
+                        "randomzombie",
+                        "randomzombiefighter",
+                        "2costzombie",
+                        "can be transmogrified"
+                    ]
+                }
+            }
+        ]
+    },
+    "prefabName": "c2018a7b-9ab7-4c6c-bad7-09b6972d544a",
+    "baseId": "BaseZombie",
+    "color": "Brainy",
+    "set": "Token",
+    "rarity": 4,
+    "setAndRarityKey": "Token",
+    "displayHealth": 3,
+    "displayAttack": 2,
+    "displaySunCost": 2,
+    "faction": "Zombies",
+    "ignoreDeckLimit": false,
+    "isPower": false,
+    "isPrimaryPower": false,
+    "isFighter": true,
+    "isEnv": false,
+    "isAquatic": false,
+    "isTeamup": false,
+    "subtypes": [
+        "Science"
+    ],
+    "tags": [
+        "randomzombie",
+        "randomzombiefighter",
+        "2costzombie",
+        "can be transmogrified"
+    ],
+    "subtype_affinities": [
+        "Science"
+    ],
+    "subtype_affinity_weights": [
+        1
+    ],
+    "tag_affinities": [],
+    "tag_affinity_weights": [],
+    "card_affinities": [],
+    "card_affinity_weights": [],
+    "usable": true,
+    "special_abilities": []
+}

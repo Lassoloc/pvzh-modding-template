@@ -1,0 +1,188 @@
+{
+    "entity": {
+        "components": [
+            {
+                "$type": "PvZCards.Engine.Components.Card, EngineLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                "$data": {
+                    "Guid": 506
+                }
+            },
+            {
+                "$type": "PvZCards.Engine.Components.Attack, EngineLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                "$data": {
+                    "AttackValue": {
+                        "BaseValue": 2
+                    }
+                }
+            },
+            {
+                "$type": "PvZCards.Engine.Components.Health, EngineLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                "$data": {
+                    "MaxHealth": {
+                        "BaseValue": 1
+                    },
+                    "CurrentDamage": 0
+                }
+            },
+            {
+                "$type": "PvZCards.Engine.Components.SunCost, EngineLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                "$data": {
+                    "SunCostValue": {
+                        "BaseValue": 1
+                    }
+                }
+            },
+            {
+                "$type": "PvZCards.Engine.Components.Zombies, EngineLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                "$data": {}
+            },
+            {
+                "$type": "PvZCards.Engine.Components.Rarity, EngineLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                "$data": {
+                    "Value": "Event"
+                }
+            },
+            {
+                "$type": "PvZCards.Engine.Components.Subtypes, EngineLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                "$data": {
+                    "subtypes": [
+                        37,
+                        7
+                    ]
+                }
+            },
+            {
+                "$type": "PvZCards.Engine.Components.Tags, EngineLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                "$data": {
+                    "tags": [
+                        "zombieevent"
+                    ]
+                }
+            },
+            {
+                "$type": "PvZCards.Engine.Components.EffectEntitiesDescriptor, EngineLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                "$data": {
+                    "entities": [
+                        {
+                            "components": [
+                                {
+                                    "$type": "PvZCards.Engine.Components.SelfEntityFilter, EngineLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                                    "$data": {
+                                        "Query": {
+                                            "$type": "PvZCards.Engine.Queries.CompositeAllQuery, EngineLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                                            "$data": {
+                                                "queries": [
+                                                    {
+                                                        "$type": "PvZCards.Engine.Queries.WillTriggerEffectsQuery, EngineLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                                                        "$data": {}
+                                                    },
+                                                    {
+                                                        "$type": "PvZCards.Engine.Queries.IsAliveQuery, EngineLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                                                        "$data": {}
+                                                    }
+                                                ]
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "$type": "PvZCards.Engine.Components.Continuous, EngineLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                                    "$data": {}
+                                },
+                                {
+                                    "$type": "PvZCards.Engine.Components.ActiveTargets, EngineLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                                    "$data": {}
+                                },
+                                {
+                                    "$type": "PvZCards.Engine.Components.PrimaryTargetFilter, EngineLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                                    "$data": {
+                                        "SelectionType": "All",
+                                        "NumTargets": 0,
+                                        "TargetScopeType": "All",
+                                        "TargetScopeSortValue": "None",
+                                        "TargetScopeSortMethod": "None",
+                                        "AdditionalTargetType": "None",
+                                        "AdditionalTargetQuery": null,
+                                        "OnlyApplyEffectsOnAdditionalTargets": false,
+                                        "Query": {
+                                            "$type": "PvZCards.Engine.Queries.CompositeAllQuery, EngineLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                                            "$data": {
+                                                "queries": [
+                                                    {
+                                                        "$type": "PvZCards.Engine.Queries.HasComponentQuery, EngineLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                                                        "$data": {
+                                                            "ComponentType": "PvZCards.Engine.Components.Zombies, EngineLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+                                                        }
+                                                    },
+                                                    {
+                                                        "$type": "PvZCards.Engine.Queries.TrickQuery, EngineLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                                                        "$data": {}
+                                                    },
+                                                    {
+                                                        "$type": "PvZCards.Engine.Queries.InHandQuery, EngineLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                                                        "$data": {}
+                                                    }
+                                                ]
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "$type": "PvZCards.Engine.Components.ModifySunCostEffectDescriptor, EngineLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                                    "$data": {
+                                        "SunCostAmount": -1,
+                                        "BuffDuration": "Permanent"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
+                "$type": "PvZCards.Engine.Components.ShowTriggeredIcon, EngineLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                "$data": {
+                    "abilities": [
+                        13
+                    ]
+                }
+            }
+        ]
+    },
+    "prefabName": "Zombology Teacher",
+    "baseId": "BaseZombie",
+    "color": "Hearty",
+    "set": "Event",
+    "rarity": 5,
+    "setAndRarityKey": "Premium_Event",
+    "craftingBuy": 2000,
+    "craftingSell": 500,
+    "displayHealth": 1,
+    "displayAttack": 2,
+    "displaySunCost": 1,
+    "faction": "Zombies",
+    "ignoreDeckLimit": false,
+    "isPower": false,
+    "isPrimaryPower": false,
+    "isFighter": true,
+    "isEnv": false,
+    "isAquatic": false,
+    "isTeamup": false,
+    "subtypes": [
+        "Professional",
+        "Science"
+    ],
+    "tags": [
+        "zombieevent"
+    ],
+    "subtype_affinities": [],
+    "subtype_affinity_weights": [],
+    "tag_affinities": [],
+    "tag_affinity_weights": [],
+    "card_affinities": [],
+    "card_affinity_weights": [],
+    "usable": true,
+    "special_abilities": [
+        "Unique"
+    ]
+}

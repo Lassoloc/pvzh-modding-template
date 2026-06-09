@@ -1,0 +1,135 @@
+{
+    "entity": {
+        "components": [
+            {
+                "$type": "PvZCards.Engine.Components.Card, EngineLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                "$data": {
+                    "Guid": 169
+                }
+            },
+            {
+                "$type": "PvZCards.Engine.Components.Attack, EngineLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                "$data": {
+                    "AttackValue": {
+                        "BaseValue": 3
+                    }
+                }
+            },
+            {
+                "$type": "PvZCards.Engine.Components.Health, EngineLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                "$data": {
+                    "MaxHealth": {
+                        "BaseValue": 1
+                    },
+                    "CurrentDamage": 0
+                }
+            },
+            {
+                "$type": "PvZCards.Engine.Components.SunCost, EngineLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                "$data": {
+                    "SunCostValue": {
+                        "BaseValue": 2
+                    }
+                }
+            },
+            {
+                "$type": "PvZCards.Engine.Components.Zombies, EngineLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                "$data": {}
+            },
+            {
+                "$type": "PvZCards.Engine.Components.Rarity, EngineLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                "$data": {
+                    "Value": "R1"
+                }
+            },
+            {
+                "$type": "PvZCards.Engine.Components.Subtypes, EngineLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                "$data": {
+                    "subtypes": [
+                        15,
+                        6
+                    ]
+                }
+            },
+            {
+                "$type": "PvZCards.Engine.Components.Tags, EngineLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                "$data": {
+                    "tags": [
+                        "truestrike",
+                        "weenie",
+                        "2costzombie",
+                        "randomzombie",
+                        "can be transmogrified",
+                        "randomzombiefighter"
+                    ]
+                }
+            },
+            {
+                "$type": "PvZCards.Engine.Components.Truestrike, EngineLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                "$data": {
+                    "Counters": {
+                        "IsPersistent": true,
+                        "Counters": [
+                            {
+                                "SourceId": -1,
+                                "Duration": 0,
+                                "Value": 0
+                            }
+                        ]
+                    }
+                }
+            }
+        ]
+    },
+    "prefabName": "ef75a4c7-f0ba-4da5-88bd-32cb58a487b0",
+    "baseId": "BaseZombie",
+    "color": "Brainy",
+    "set": "Gold",
+    "rarity": 0,
+    "setAndRarityKey": "Bloom_Common",
+    "craftingBuy": 50,
+    "craftingSell": 15,
+    "displayHealth": 1,
+    "displayAttack": 3,
+    "displaySunCost": 2,
+    "faction": "Zombies",
+    "ignoreDeckLimit": false,
+    "isPower": false,
+    "isPrimaryPower": false,
+    "isFighter": true,
+    "isEnv": false,
+    "isAquatic": false,
+    "isTeamup": false,
+    "subtypes": [
+        "Mustache",
+        "Sports"
+    ],
+    "tags": [
+        "truestrike",
+        "weenie",
+        "2costzombie",
+        "randomzombie",
+        "can be transmogrified",
+        "randomzombiefighter"
+    ],
+    "subtype_affinities": [
+        "Sports"
+    ],
+    "subtype_affinity_weights": [
+        1
+    ],
+    "tag_affinities": [],
+    "tag_affinity_weights": [],
+    "card_affinities": [
+        190,
+        200
+    ],
+    "card_affinity_weights": [
+        1.3,
+        1.3
+    ],
+    "usable": true,
+    "special_abilities": [
+        "Truestrike"
+    ]
+}

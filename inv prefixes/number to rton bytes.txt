@@ -1,0 +1,15 @@
+if first byte is 0-127:
+no second byte, used as is
+
+if first byte is 128-255:
+second byte changes the value by 128(x-1)
+
+second byte 0: -128
+second byte 1: no change
+second byte 2: +128
+second byte 3: +256
+second byte 4: +384
+second byte 5: +512
+second byte 6: +640
+second byte 7: +768
+etc
