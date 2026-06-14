@@ -1,0 +1,124 @@
+{
+    "bookmarks": [
+        {
+            "color": 1342177279,
+            "comment": "",
+            "highlightVisible": true,
+            "id": 11,
+            "locked": true,
+            "name": "precision blast (0x19)",
+            "region": {
+                "address": 0,
+                "size": 6
+            }
+        },
+        {
+            "color": 1342177279,
+            "comment": "",
+            "highlightVisible": true,
+            "id": 4,
+            "locked": true,
+            "name": "slammin smackdown (0x1A)",
+            "region": {
+                "address": 6,
+                "size": 6
+            }
+        },
+        {
+            "color": 1342177279,
+            "comment": "",
+            "highlightVisible": true,
+            "id": 5,
+            "locked": true,
+            "name": "carried away (0x1B)",
+            "region": {
+                "address": 12,
+                "size": 6
+            }
+        },
+        {
+            "color": 3005819340,
+            "comment": "",
+            "highlightVisible": true,
+            "id": 6,
+            "locked": true,
+            "name": "storm front (0x25)",
+            "region": {
+                "address": 18,
+                "size": 6
+            }
+        },
+        {
+            "color": 3005819340,
+            "comment": "",
+            "highlightVisible": true,
+            "id": 7,
+            "locked": true,
+            "name": "meteor strike (0x26)",
+            "region": {
+                "address": 24,
+                "size": 6
+            }
+        },
+        {
+            "color": 3006450729,
+            "comment": "",
+            "highlightVisible": true,
+            "id": 8,
+            "locked": true,
+            "name": "embiggen (0x2A)",
+            "region": {
+                "address": 30,
+                "size": 6
+            }
+        },
+        {
+            "color": 3006450729,
+            "comment": "",
+            "highlightVisible": true,
+            "id": 9,
+            "locked": true,
+            "name": "holo flora (0x2C)",
+            "region": {
+                "address": 36,
+                "size": 6
+            }
+        },
+        {
+            "color": 3005861063,
+            "comment": "",
+            "highlightVisible": true,
+            "id": 10,
+            "locked": true,
+            "name": "weed whack (0x2F)",
+            "region": {
+                "address": 42,
+                "size": 6
+            }
+        },
+        {
+            "color": 3005861063,
+            "comment": "",
+            "highlightVisible": true,
+            "id": 12,
+            "locked": true,
+            "name": "scorched earth (0x30)",
+            "region": {
+                "address": 48,
+                "size": 6
+            }
+        },
+        {
+            "color": 3005840844,
+            "comment": "",
+            "highlightVisible": true,
+            "id": 3,
+            "locked": true,
+            "name": "tutorial zombie (0x32)",
+            "region": {
+                "address": 54,
+                "size": 6
+            }
+        }
+    ]
+}
