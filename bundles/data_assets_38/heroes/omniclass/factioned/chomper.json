@@ -1,0 +1,14 @@
+{
+    "Guid": "Chomper",
+    "AssetId": "Prefabs/Heroes/Chomper",
+    "Faction": 0,
+    "Colors": 31,
+    "SuperpowerCardIds": [
+        263,
+        44,
+        155,
+        48
+    ],
+    "DescriptionLocTag": "Description_Chompzilla",
+    "levels": []
+}

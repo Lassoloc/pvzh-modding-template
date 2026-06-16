@@ -1,0 +1,14 @@
+{
+    "Guid": "Impfinity",
+    "AssetId": "Prefabs/Heroes/Impfinity",
+    "Faction": 1,
+    "Colors": 992,
+    "SuperpowerCardIds": [
+        291,
+        245,
+        258,
+        69
+    ],
+    "DescriptionLocTag": "Description_Impfinity",
+    "levels": []
+}

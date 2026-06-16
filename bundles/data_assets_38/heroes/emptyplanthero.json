@@ -1,0 +1,9 @@
+{
+    "Guid": "EmptyPlantHero",
+    "AssetId": "Prefabs/Heroes/EmptyHero",
+    "Faction": 0,
+    "Colors": 0,
+    "SuperpowerCardIds": [],
+    "DescriptionLocTag": null,
+    "levels": []
+}

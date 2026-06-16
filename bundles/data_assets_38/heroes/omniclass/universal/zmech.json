@@ -1,0 +1,14 @@
+{
+    "Guid": "ZMech",
+    "AssetId": "Prefabs/Heroes/ZMech",
+    "Faction": 1,
+    "Colors": 1023,
+    "SuperpowerCardIds": [
+        265,
+        55,
+        69,
+        68
+    ],
+    "DescriptionLocTag": "Description_Z-Mech",
+    "levels": []
+}

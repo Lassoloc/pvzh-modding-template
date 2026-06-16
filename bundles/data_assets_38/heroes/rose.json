@@ -1,0 +1,14 @@
+{
+    "Guid": "Rose",
+    "AssetId": "Prefabs/Heroes/Rose",
+    "Faction": 0,
+    "Colors": 24,
+    "SuperpowerCardIds": [
+        262,
+        146,
+        135,
+        47
+    ],
+    "DescriptionLocTag": "Description_Rose",
+    "levels": []
+}

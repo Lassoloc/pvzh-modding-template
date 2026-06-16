@@ -1,0 +1,14 @@
+{
+    "Guid": "NightCap",
+    "AssetId": "Prefabs/Heroes/NightCap",
+    "Faction": 0,
+    "Colors": 9,
+    "SuperpowerCardIds": [
+        261,
+        295,
+        136,
+        37
+    ],
+    "DescriptionLocTag": "Description_Night_Cap",
+    "levels": []
+}

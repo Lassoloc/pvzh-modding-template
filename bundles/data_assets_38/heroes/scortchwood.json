@@ -1,0 +1,14 @@
+{
+    "Guid": "Scortchwood",
+    "AssetId": "Prefabs/Heroes/Scortchwood",
+    "Faction": 0,
+    "Colors": 3,
+    "SuperpowerCardIds": [
+        73,
+        38,
+        42,
+        283
+    ],
+    "DescriptionLocTag": "Description_Captain_Combustible",
+    "levels": []
+}

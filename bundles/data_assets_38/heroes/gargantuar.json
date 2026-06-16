@@ -1,0 +1,14 @@
+{
+    "Guid": "Gargantuar",
+    "AssetId": "Prefabs/Heroes/Gargantuar",
+    "Faction": 1,
+    "Colors": 320,
+    "SuperpowerCardIds": [
+        26,
+        56,
+        219,
+        63
+    ],
+    "DescriptionLocTag": "Description_The_Smash",
+    "levels": []
+}

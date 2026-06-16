@@ -1,0 +1,14 @@
+{
+    "Guid": "Citron",
+    "AssetId": "Prefabs/Heroes/Citron",
+    "Faction": 0,
+    "Colors": 1023,
+    "SuperpowerCardIds": [
+        341,
+        146,
+        96,
+        305
+    ],
+    "DescriptionLocTag": "Description_Citron",
+    "levels": []
+}

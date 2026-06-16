@@ -1,0 +1,14 @@
+{
+    "Guid": "Spudow",
+    "AssetId": "Prefabs/Heroes/Spudow",
+    "Faction": 0,
+    "Colors": 1023,
+    "SuperpowerCardIds": [
+        289,
+        86,
+        37,
+        38
+    ],
+    "DescriptionLocTag": "Description_Spudow",
+    "levels": []
+}

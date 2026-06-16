@@ -1,0 +1,304 @@
+{
+    "Guid": "Penelopea",
+    "AssetId": "Prefabs/Heroes/Penelopea",
+    "Faction": 0,
+    "Colors": 1023,
+    "SuperpowerCardIds": [
+        25,
+        135,
+        136,
+        42
+    ],
+    "DescriptionLocTag": "Description_Green_Shadow",
+    "levels": [
+        {
+            "costs": [
+                {
+                    "group": "PenelopeaShardGroup",
+                    "quantity": 100
+                }
+            ],
+            "AssetId": "Prefabs/Heroes/Penelopea",
+            "Health": 0,
+            "ExtraCardInHandChance": 0,
+            "SuperpowerCardIds": [],
+            "Rewards": {
+                "gems": 0,
+                "sparks": 0,
+                "currencies": null,
+                "pack": null,
+                "cards": []
+            }
+        },
+        {
+            "costs": [
+                {
+                    "group": "PenelopeaShardGroup",
+                    "quantity": 5
+                },
+                {
+                    "group": "gold",
+                    "quantity": 5
+                }
+            ],
+            "AssetId": "Prefabs/Heroes/Penelopea",
+            "Health": 15,
+            "ExtraCardInHandChance": 0,
+            "SuperpowerCardIds": [
+                25,
+                42
+            ],
+            "Rewards": {
+                "gems": 0,
+                "sparks": 0,
+                "currencies": null,
+                "pack": null,
+                "cards": []
+            }
+        },
+        {
+            "costs": [
+                {
+                    "group": "PenelopeaShardGroup",
+                    "quantity": 10
+                },
+                {
+                    "group": "gold",
+                    "quantity": 10
+                }
+            ],
+            "AssetId": "Prefabs/Heroes/Penelopea",
+            "Health": 16,
+            "ExtraCardInHandChance": 0,
+            "SuperpowerCardIds": [
+                25,
+                42,
+                135
+            ],
+            "Rewards": {
+                "gems": 0,
+                "sparks": 0,
+                "currencies": null,
+                "pack": null,
+                "cards": []
+            }
+        },
+        {
+            "costs": [
+                {
+                    "group": "PenelopeaShardGroup",
+                    "quantity": 20
+                },
+                {
+                    "group": "gold",
+                    "quantity": 20
+                }
+            ],
+            "AssetId": "Prefabs/Heroes/Penelopea",
+            "Health": 17,
+            "ExtraCardInHandChance": 0,
+            "SuperpowerCardIds": [
+                25,
+                42,
+                135,
+                136
+            ],
+            "Rewards": {
+                "gems": 0,
+                "sparks": 0,
+                "currencies": null,
+                "pack": null,
+                "cards": []
+            }
+        },
+        {
+            "costs": [
+                {
+                    "group": "PenelopeaShardGroup",
+                    "quantity": 50
+                },
+                {
+                    "group": "gold",
+                    "quantity": 50
+                }
+            ],
+            "AssetId": "Prefabs/Heroes/Penelopea",
+            "Health": 18,
+            "ExtraCardInHandChance": 0,
+            "SuperpowerCardIds": [
+                25,
+                42,
+                135,
+                136
+            ],
+            "Rewards": {
+                "gems": 0,
+                "sparks": 0,
+                "currencies": null,
+                "pack": null,
+                "cards": []
+            }
+        },
+        {
+            "costs": [
+                {
+                    "group": "PenelopeaShardGroup",
+                    "quantity": 100
+                },
+                {
+                    "group": "gold",
+                    "quantity": 100
+                }
+            ],
+            "AssetId": "Prefabs/Heroes/Penelopea",
+            "Health": 19,
+            "ExtraCardInHandChance": 0,
+            "SuperpowerCardIds": [
+                25,
+                42,
+                135,
+                136
+            ],
+            "Rewards": {
+                "gems": 0,
+                "sparks": 0,
+                "currencies": null,
+                "pack": null,
+                "cards": []
+            }
+        },
+        {
+            "costs": [
+                {
+                    "group": "PenelopeaShardGroup",
+                    "quantity": 150
+                },
+                {
+                    "group": "gold",
+                    "quantity": 250
+                }
+            ],
+            "AssetId": "Prefabs/Heroes/Penelopea",
+            "Health": 20,
+            "ExtraCardInHandChance": 0,
+            "SuperpowerCardIds": [
+                25,
+                42,
+                135,
+                136
+            ],
+            "Rewards": {
+                "gems": 0,
+                "sparks": 0,
+                "currencies": null,
+                "pack": null,
+                "cards": []
+            }
+        },
+        {
+            "costs": [
+                {
+                    "group": "PenelopeaShardGroup",
+                    "quantity": 200
+                },
+                {
+                    "group": "gold",
+                    "quantity": 500
+                }
+            ],
+            "AssetId": "Prefabs/Heroes/Penelopea",
+            "Health": 20,
+            "ExtraCardInHandChance": 0,
+            "SuperpowerCardIds": [
+                25,
+                42,
+                135,
+                136
+            ],
+            "Rewards": {
+                "gems": 0,
+                "sparks": 0,
+                "currencies": null,
+                "pack": null,
+                "cards": []
+            }
+        },
+        {
+            "costs": [
+                {
+                    "group": "PenelopeaShardGroup",
+                    "quantity": 250
+                },
+                {
+                    "group": "gold",
+                    "quantity": 1000
+                }
+            ],
+            "AssetId": "Prefabs/Heroes/Penelopea_red",
+            "Health": 20,
+            "ExtraCardInHandChance": 25,
+            "SuperpowerCardIds": [
+                25,
+                42,
+                135,
+                136
+            ],
+            "Rewards": {
+                "gems": 0,
+                "sparks": 0,
+                "currencies": null,
+                "pack": null,
+                "cards": []
+            }
+        },
+        {
+            "costs": [
+                {
+                    "group": "PenelopeaShardGroup",
+                    "quantity": 400
+                },
+                {
+                    "group": "gold",
+                    "quantity": 1500
+                }
+            ],
+            "AssetId": "Prefabs/Heroes/Penelopea_red",
+            "Health": 20,
+            "ExtraCardInHandChance": 25,
+            "SuperpowerCardIds": [
+                25,
+                42,
+                135,
+                136
+            ],
+            "Rewards": {
+                "gems": 0,
+                "sparks": 0,
+                "currencies": null,
+                "pack": null,
+                "cards": []
+            }
+        },
+        {
+            "costs": [],
+            "AssetId": "Prefabs/Heroes/Penelopea_red",
+            "Health": 20,
+            "ExtraCardInHandChance": 25,
+            "SuperpowerCardIds": [
+                25,
+                42,
+                135,
+                136
+            ],
+            "Rewards": {
+                "gems": 0,
+                "sparks": 0,
+                "currencies": null,
+                "pack": null,
+                "cards": [
+                    333
+                ]
+            }
+        }
+    ]
+}

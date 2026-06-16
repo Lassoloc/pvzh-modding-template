@@ -1,0 +1,14 @@
+{
+    "Guid": "BetaCarrotina",
+    "AssetId": "Prefabs/Heroes/BetaCarrot",
+    "Faction": 0,
+    "Colors": 1023,
+    "SuperpowerCardIds": [
+        572,
+        573,
+        574,
+        575
+    ],
+    "DescriptionLocTag": "Description_Beta_Carrotina",
+    "levels": []
+}

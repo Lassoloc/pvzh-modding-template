@@ -8,11 +8,18 @@ Contains a formatted (and otherwise unmodified) version of the vanilla `cards.js
 
 Thank you to [bbb908](https://github.com/bbb908) for making the card splitter tool used to split and reassemble these, at my request. (A link will be added here if it is publicly released)
 
-## /bundles/data_assets
+## /bundles/data_assets/heroes
 
-work in progress
+Contains a formatted (and otherwise unmodified) version of each file in the vanilla /heroes/ section of the bundle, as well as a subfolder with pre-made modified versions that remove class restrictions. The files in the "factioned" folder give the hero access to all 5 classes in their faction, and the files in the "universal" folder give the hero access to all ten classes, regardless of faction.
 
-planned to include omniclass hero files
+<details>
+
+<summary>Instructions for customizing classes</summary>
+
+The file for each hero contains a key "Color". The value is a ten-bit number where each bit represents one class. You can use a binary converter for this, or simply add up the numbers for the classes you want to select.</br>
+</br>
+The classes are, in order: Kabloom (1), Mega-Grow (2), Guardian (4), Smarty (8), Solar (16), Brainy (32), Hearty (64), Sneaky (128), Beastly (256), and Crazy (512).
+</details>
 
 ## /bundles/loc
 

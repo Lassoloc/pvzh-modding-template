@@ -1,0 +1,14 @@
+{
+    "Guid": "Cyborg",
+    "AssetId": "Prefabs/Heroes/Cyborg",
+    "Faction": 1,
+    "Colors": 1023,
+    "SuperpowerCardIds": [
+        74,
+        56,
+        172,
+        55
+    ],
+    "DescriptionLocTag": "Description_Rustbolt",
+    "levels": []
+}

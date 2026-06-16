@@ -1,0 +1,14 @@
+{
+    "Guid": "Sunflower",
+    "AssetId": "Prefabs/Heroes/Sunflower",
+    "Faction": 0,
+    "Colors": 1023,
+    "SuperpowerCardIds": [
+        75,
+        47,
+        295,
+        48
+    ],
+    "DescriptionLocTag": "Description_Solar_Flare",
+    "levels": []
+}

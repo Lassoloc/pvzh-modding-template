@@ -1,0 +1,14 @@
+{
+    "Guid": "Grass_Knuckles",
+    "AssetId": "Prefabs/Heroes/GrassKnuck",
+    "Faction": 0,
+    "Colors": 1023,
+    "SuperpowerCardIds": [
+        188,
+        44,
+        283,
+        305
+    ],
+    "DescriptionLocTag": "Description_Grass_Knuckles",
+    "levels": []
+}

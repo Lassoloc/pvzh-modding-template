@@ -1,0 +1,14 @@
+{
+    "Guid": "Witch",
+    "AssetId": "Prefabs/Heroes/Witch",
+    "Faction": 1,
+    "Colors": 992,
+    "SuperpowerCardIds": [
+        329,
+        301,
+        185,
+        210
+    ],
+    "DescriptionLocTag": "Description_Immorticia",
+    "levels": []
+}

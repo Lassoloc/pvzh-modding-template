@@ -1,0 +1,14 @@
+{
+    "Guid": "BrainFreeze",
+    "AssetId": "Prefabs/Heroes/BrainFreeze",
+    "Faction": 1,
+    "Colors": 384,
+    "SuperpowerCardIds": [
+        269,
+        246,
+        210,
+        63
+    ],
+    "DescriptionLocTag": "Description_Brain_Freeze",
+    "levels": []
+}

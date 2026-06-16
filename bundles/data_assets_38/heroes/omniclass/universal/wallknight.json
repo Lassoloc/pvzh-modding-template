@@ -1,0 +1,14 @@
+{
+    "Guid": "WallKnight",
+    "AssetId": "Prefabs/Heroes/WallKnight",
+    "Faction": 0,
+    "Colors": 1023,
+    "SuperpowerCardIds": [
+        72,
+        155,
+        96,
+        86
+    ],
+    "DescriptionLocTag": "Description_Wall-Knight",
+    "levels": []
+}

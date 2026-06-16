@@ -1,0 +1,304 @@
+{
+    "Guid": "CptBrainz",
+    "AssetId": "Prefabs/Heroes/CptBrainz",
+    "Faction": 1,
+    "Colors": 1023,
+    "SuperpowerCardIds": [
+        27,
+        319,
+        172,
+        245
+    ],
+    "DescriptionLocTag": "Description_Super_Brainz",
+    "levels": [
+        {
+            "costs": [
+                {
+                    "group": "CptBrainzShardGroup",
+                    "quantity": 100
+                }
+            ],
+            "AssetId": "Prefabs/Heroes/CptBrainz",
+            "Health": 0,
+            "ExtraCardInHandChance": 0,
+            "SuperpowerCardIds": [],
+            "Rewards": {
+                "gems": 0,
+                "sparks": 0,
+                "currencies": null,
+                "pack": null,
+                "cards": []
+            }
+        },
+        {
+            "costs": [
+                {
+                    "group": "CptBrainzShardGroup",
+                    "quantity": 5
+                },
+                {
+                    "group": "gold",
+                    "quantity": 5
+                }
+            ],
+            "AssetId": "Prefabs/Heroes/CptBrainz",
+            "Health": 15,
+            "ExtraCardInHandChance": 0,
+            "SuperpowerCardIds": [
+                319,
+                27
+            ],
+            "Rewards": {
+                "gems": 0,
+                "sparks": 0,
+                "currencies": null,
+                "pack": null,
+                "cards": []
+            }
+        },
+        {
+            "costs": [
+                {
+                    "group": "CptBrainzShardGroup",
+                    "quantity": 10
+                },
+                {
+                    "group": "gold",
+                    "quantity": 10
+                }
+            ],
+            "AssetId": "Prefabs/Heroes/CptBrainz",
+            "Health": 16,
+            "ExtraCardInHandChance": 0,
+            "SuperpowerCardIds": [
+                27,
+                319,
+                172
+            ],
+            "Rewards": {
+                "gems": 0,
+                "sparks": 0,
+                "currencies": null,
+                "pack": null,
+                "cards": []
+            }
+        },
+        {
+            "costs": [
+                {
+                    "group": "CptBrainzShardGroup",
+                    "quantity": 20
+                },
+                {
+                    "group": "gold",
+                    "quantity": 20
+                }
+            ],
+            "AssetId": "Prefabs/Heroes/CptBrainz",
+            "Health": 17,
+            "ExtraCardInHandChance": 0,
+            "SuperpowerCardIds": [
+                27,
+                319,
+                172,
+                245
+            ],
+            "Rewards": {
+                "gems": 0,
+                "sparks": 0,
+                "currencies": null,
+                "pack": null,
+                "cards": []
+            }
+        },
+        {
+            "costs": [
+                {
+                    "group": "CptBrainzShardGroup",
+                    "quantity": 50
+                },
+                {
+                    "group": "gold",
+                    "quantity": 50
+                }
+            ],
+            "AssetId": "Prefabs/Heroes/CptBrainz",
+            "Health": 18,
+            "ExtraCardInHandChance": 0,
+            "SuperpowerCardIds": [
+                27,
+                319,
+                172,
+                245
+            ],
+            "Rewards": {
+                "gems": 0,
+                "sparks": 0,
+                "currencies": null,
+                "pack": null,
+                "cards": []
+            }
+        },
+        {
+            "costs": [
+                {
+                    "group": "CptBrainzShardGroup",
+                    "quantity": 100
+                },
+                {
+                    "group": "gold",
+                    "quantity": 100
+                }
+            ],
+            "AssetId": "Prefabs/Heroes/CptBrainz",
+            "Health": 19,
+            "ExtraCardInHandChance": 0,
+            "SuperpowerCardIds": [
+                27,
+                319,
+                172,
+                245
+            ],
+            "Rewards": {
+                "gems": 0,
+                "sparks": 0,
+                "currencies": null,
+                "pack": null,
+                "cards": []
+            }
+        },
+        {
+            "costs": [
+                {
+                    "group": "CptBrainzShardGroup",
+                    "quantity": 150
+                },
+                {
+                    "group": "gold",
+                    "quantity": 250
+                }
+            ],
+            "AssetId": "Prefabs/Heroes/CptBrainz",
+            "Health": 20,
+            "ExtraCardInHandChance": 0,
+            "SuperpowerCardIds": [
+                27,
+                319,
+                172,
+                245
+            ],
+            "Rewards": {
+                "gems": 0,
+                "sparks": 0,
+                "currencies": null,
+                "pack": null,
+                "cards": []
+            }
+        },
+        {
+            "costs": [
+                {
+                    "group": "CptBrainzShardGroup",
+                    "quantity": 200
+                },
+                {
+                    "group": "gold",
+                    "quantity": 500
+                }
+            ],
+            "AssetId": "Prefabs/Heroes/CptBrainz",
+            "Health": 20,
+            "ExtraCardInHandChance": 0,
+            "SuperpowerCardIds": [
+                27,
+                319,
+                172,
+                245
+            ],
+            "Rewards": {
+                "gems": 0,
+                "sparks": 0,
+                "currencies": null,
+                "pack": null,
+                "cards": []
+            }
+        },
+        {
+            "costs": [
+                {
+                    "group": "CptBrainzShardGroup",
+                    "quantity": 250
+                },
+                {
+                    "group": "gold",
+                    "quantity": 1000
+                }
+            ],
+            "AssetId": "Prefabs/Heroes/CptBrainz_red",
+            "Health": 20,
+            "ExtraCardInHandChance": 25,
+            "SuperpowerCardIds": [
+                27,
+                319,
+                172,
+                245
+            ],
+            "Rewards": {
+                "gems": 0,
+                "sparks": 0,
+                "currencies": null,
+                "pack": null,
+                "cards": []
+            }
+        },
+        {
+            "costs": [
+                {
+                    "group": "CptBrainzShardGroup",
+                    "quantity": 400
+                },
+                {
+                    "group": "gold",
+                    "quantity": 1500
+                }
+            ],
+            "AssetId": "Prefabs/Heroes/CptBrainz_red",
+            "Health": 20,
+            "ExtraCardInHandChance": 25,
+            "SuperpowerCardIds": [
+                27,
+                319,
+                172,
+                245
+            ],
+            "Rewards": {
+                "gems": 0,
+                "sparks": 0,
+                "currencies": null,
+                "pack": null,
+                "cards": []
+            }
+        },
+        {
+            "costs": [],
+            "AssetId": "Prefabs/Heroes/CptBrainz_red",
+            "Health": 20,
+            "ExtraCardInHandChance": 25,
+            "SuperpowerCardIds": [
+                27,
+                319,
+                172,
+                245
+            ],
+            "Rewards": {
+                "gems": 0,
+                "sparks": 0,
+                "currencies": null,
+                "pack": null,
+                "cards": [
+                    256
+                ]
+            }
+        }
+    ]
+}

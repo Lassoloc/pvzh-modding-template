@@ -1,0 +1,9 @@
+{
+    "Guid": "EmptyZombieHero",
+    "AssetId": "Prefabs/Heroes/EmptyHero",
+    "Faction": 1,
+    "Colors": 1023,
+    "SuperpowerCardIds": [],
+    "DescriptionLocTag": null,
+    "levels": []
+}

@@ -1,0 +1,14 @@
+{
+    "Guid": "Neptuna",
+    "AssetId": "Prefabs/Heroes/Neptuna",
+    "Faction": 1,
+    "Colors": 1023,
+    "SuperpowerCardIds": [
+        268,
+        246,
+        219,
+        258
+    ],
+    "DescriptionLocTag": "Description_Neptuna",
+    "levels": []
+}

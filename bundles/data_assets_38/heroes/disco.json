@@ -1,0 +1,14 @@
+{
+    "Guid": "Disco",
+    "AssetId": "Prefabs/Heroes/DiscoZ",
+    "Faction": 1,
+    "Colors": 768,
+    "SuperpowerCardIds": [
+        267,
+        236,
+        185,
+        68
+    ],
+    "DescriptionLocTag": "Description_Electric_Boogaloo",
+    "levels": []
+}

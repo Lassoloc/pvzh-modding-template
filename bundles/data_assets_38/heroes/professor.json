@@ -1,0 +1,14 @@
+{
+    "Guid": "Professor",
+    "AssetId": "Prefabs/Heroes/Professor",
+    "Faction": 1,
+    "Colors": 544,
+    "SuperpowerCardIds": [
+        264,
+        301,
+        319,
+        236
+    ],
+    "DescriptionLocTag": "Description_Professor_Brainstorm",
+    "levels": []
+}
